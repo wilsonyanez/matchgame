@@ -1,0 +1,118 @@
+Frameworks y Librerías JavaScript >	Evaluación Final
+
+Evaluación Final
+
+¿Preparado para el reto del juego?
+
+En Internet puedes encontrar una gran cantidad de portales de juegos de uso gratuito y pago. Incluso, algunos de ellos, asociados a tus redes sociales. Y es que jugar es una actividad propia del ser humano y es útil para: aprender de manera divertida o simplemente para fugarse de las actividades diarias, en los tiempos libres.
+
+Gracias a las nuevas tecnologías, los juegos y actividades virtuales se han convertido en una excelente manera de desarrollar habilidades cognitivas y estratégicas. Por eso es importante que fortalezcas tus destrezas en este tema.
+
+¡De eso se trata este proyecto final!
+
+Objetivo:
+Desarrollar un juego de asociación de imágenes poniendo en práctica tus conocimientos en los frameworks y librerías de JavaScript, haciendo uso de animaciones y efectos.
+
+Requerimientos generales:
+Para el desarrollo de este proyecto debes basarte en el siguiente Proyecto Base . Allí encontrarás el diseño de la página, el tablero de juego con una estructura de 7 filas y 7 columnas para ubicar los dulces, las imágenes de los dulces, y las pantallas que muestran información sobre el juego.
+
+El videojuego que desarrolles debe permitir a un jugador iniciar una partida, en la que debe hacer emparejamientos de mínimo 3 dulces del mismo tipo en línea, al lograrlo, se deben sumar los puntos correspondientes y los dulces en cuestión deben desaparecer, permitiendo que más dulces generados aleatoriamente ocupen su lugar. El jugador con mayor cantidad de puntos al finalizar el tiempo es el ganador.
+
+Los requerimientos específicos de este proyecto son:
+
+1. El título “Match Game” debe tener una animación que cambie de color después de determinado tiempo, posteriormente vuelva al color original, y permanezca cambiando entre dos colores indefinidamente.
+C5_U4_EF_01 match game1.mov
+
+2. Se deben generar los dulces aleatoriamente en el tablero, llenándolo todo al principio del juego. Cada vez que se realice una combinación de 3 dulces o más en línea, y posteriormente desaparezcan, estos espacios se deben llenar con los dulces inmediatamente anteriores verticalmente a los espacios; creando nuevos dulces aleatorios para llenar en la parte de arriba del tablero. Esto debe mostrar un efecto en el que la gravedad hace que todos los dulces se desplacen hacia abajo y se llenen los nuevos desde la parte superior del tablero.
+C5_U4_EF_02 captura1.png
+
+3. Verificar si hay como mínimo tres dulces del mismo tipo en línea, en caso tal, deben desaparecer con un efecto animado. Esto debe sumar puntos en el puntaje general.
+C5_U4_EF_03 match game3.mov
+
+4. El juego debe tener un temporizador a dos minutos, que inicie con el juego y al cumplirse el tiempo, cambie mediante animaciones el aspecto de la página eliminando el tablero de juego, y mostrando en toda la página el puntaje y el número de movimientos. Puedes aplicar un plugin externo de código abierto para implementar el temporizador en el proyecto.
+C5_U4_EF_04 match game4.mov
+
+5. Cada vez que el jugador realice un movimiento, debe aumentarse un contador que se muestra en pantalla.
+C5_U4_EF_05 captura2.png
+
+6. El botón de Iniciar en la parte inferior izquierda, debe cambiar su contenido a Reiniciar una vez se oprima por primera vez. Al presionar reiniciar se debe volver a cargar la página para empezar un nuevo juego.
+C5_U4_EF_06 match game6.mov
+
+7. La interacción del usuario con el elemento dulce debe ser de drag & drop.
+C5_U4_EF_07 match game7.mov
+
+8. Cada vez que se alteren los elementos del tablero, se debe verificar si hay dulces en línea, no necesariamente con un movimiento del jugador se pueden anotar puntos.
+
+9. Debes usar la función setTimeout de JavaScript para retrasar la ejecución de funciones según un tiempo determinado, con el fin de darle un orden a las animaciones y acciones que interactúan en el juego.
+
+Instrucciones para la entrega
+
+Una vez finalices el proyecto, comprime la carpeta con los archivos y súbela al curso. Ten presentes los siguientes pasos para completar este último requerimiento, de la manera adecuada:
+
+1. En una carpeta guarda tu proyecto y todos los recursos que consideres necesarios para su funcionamiento. Demás, guarda un archivo github_url.txt que contenga la URL de tu proyecto versionado en el repositorio.
+
+   Recuerda que haciendo uso de Git Hub podrás crear tu portafolio de aplicaciones web.
+
+2. Utiliza la siguiente estructura para nombrar la carpeta Zip que entregarás pues nos permitirá identificarte: NombreDelCurso_PrimerNombre_PrimerApellido.zip
+
+3. Para subir el Zip al curso:
+
+  * Accede a la página Evaluación final.
+  * Haz clic en Añadir envío.
+  * Agrega una descripción en la sección Texto en línea y adjunta la carpeta comprimida.
+  * en la sección Envíos de archivo.
+  * Haz clic en Guardar cambios.
+
+
+
+Estatus de la entrega
+Número de intento	Éste es el intento 1.
+Estatus de la entrega	Sin intento
+Estatus de calificación	No calificado
+Criterio para calificar	
+Completitud Funcional	
+Experto. El proyecto cumple con: (1) El título "Match Game" está animado alterando colores. (2) Se generan dulces aleatoriamente y se rellena el tablero. (3) Se desaparecen las combinaciones parpadeando y se rellenan con nuevo elementos. (4) Se lleva la puntuación del juego según las reglas y se van contando los movimientos. (5) Se hace el reloj en cuenta regresiva. (6) Al finalizar se anima el de manera tal que el tablero desaparece y se agrandan los cuadros de indicadores. (7) El botón "Iniciar" cambia su contenido a "Reiniciar".
+50 puntos
+Avanzado. El proyecto cumple entre 4 a 6 de los siguientes items:  (1) El título "Match Game" está animado alterando colores. (2) Se generan dulces aleatoriamente y se rellena el tablero. (3) Se desaparecen las combinaciones parpadeando y se rellenan con nuevo elementos. (4) Se lleva la puntuación del juego según las reglas y se van contando los movimientos. (5) Se hace el reloj en cuenta regresiva. (6) Al finalizar se anima el de manera tal que el tablero desaparece y se agrandan los cuadros de indicadores. (7) El botón "Iniciar" cambia su contenido a "Reiniciar".
+37 puntos
+Aprendiz. El proyecto cumple con 2 o 3 de los siguientes items:  (1) El título "Match Game" está animado alterando colores. (2) Se generan dulces aleatoriamente y se rellena el tablero. (3) Se desaparecen las combinaciones parpadeando y se rellenan con nuevo elementos. (4) Se lleva la puntuación del juego según las reglas y se van contando los movimientos. (5) Se hace el reloj en cuenta regresiva. (6) Al finalizar se anima el de manera tal que el tablero desaparece y se agrandan los cuadros de indicadores. (7) El botón "Iniciar" cambia su contenido a "Reiniciar".
+19 puntos
+Novato. El proyecto cumple con 1 de los siguientes items:  (1) El título "Match Game" está animado alterando colores. (2) Se generan dulces aleatoriamente y se rellena el tablero. (3) Se desaparecen las combinaciones parpadeando y se rellenan con nuevo elementos. (4) Se lleva la puntuación del juego según las reglas y se van contando los movimientos. (5) Se hace el reloj en cuenta regresiva. (6) Al finalizar se anima el de manera tal que el tablero desaparece y se agrandan los cuadros de indicadores. (7) El botón "Iniciar" cambia su contenido a "Reiniciar".
+10 puntos
+Incumplido. El proyecto enviado no corresponde a los requerimientos solicitados.
+0 puntos
+Correctitud Funcional	
+Experto. El proyecto cumple con: (1) La interfaz se ve ordenada y coherente (2) Se realizan los movimientos con arrastrar (3) Se revisan las combinaciones en línea (4) Se impiden movimientos inválidos
+30 puntos
+Avanzado. El proyecto cumple con 3 de los siguientes items:  (1) La interfaz se ve ordenada y coherente (2) Se realizan los movimientos con arrastrar (3) Se revisan las combinaciones en línea (4) Se impiden movimientos inválidos
+26 puntos
+Aprendiz. El proyecto cumple con 2 de los siguientes items:  (1) La interfaz se ve ordenada y coherente (2) Se realizan los movimientos con arrastrar (3) Se revisan las combinaciones en línea (4) Se impiden movimientos inválidos
+10 puntos
+Novato. El proyecto cumple con 1 de los siguientes items:  (1) La interfaz se ve ordenada y coherente (2) Se realizan los movimientos con arrastrar (3) Se revisan las combinaciones en línea (4) Se impiden movimientos inválidos
+5 puntos
+Incumplido. El proyecto enviado no corresponde a los requerimientos solicitados.
+0 puntos
+Capacidad de Ser Modificado	
+Experto. El proyecto fue publicado en Github y se evidencia el uso de versiones.
+10 puntos
+Avanzado.  El proyecto fue publicado en Github.
+9 puntos
+Aprendiz. Existe el enlace del proyecto en Github, pero no se encuentra actualizado.
+5 puntos
+Novato. El proyecto no fue publicado en Github.
+2 puntos
+Incumplido. El proyecto enviado no corresponde a los requerimientos solicitados.
+0 puntos
+Legibilidad y Calidad de Código	
+Experto. El proyecto cumple con: (1) Código ordenado. (2) Nombra los elementos, clases y recursos, de manera descriptiva y concisa.
+10 puntos
+Avanzado. El 80% del proyecto cumple con: (1) Código ordenado. (2) Nombra los elementos, clases y recursos, de manera descriptiva y concisa.
+8 puntos
+Aprendiz. El proyecto cumple con solo 1 de las siguientes: (1) Código ordenado. (2) Nombra los elementos, clases y recursos, de manera descriptiva y concisa.
+5 puntos
+Novato. El proyecto no cumple con: (1) Código ordenado. (2) Nombra los elementos, clases y recursos, de manera descriptiva y concisa.
+2 puntos
+Incumplido. El proyecto enviado no corresponde a los requerimientos solicitados.
+0 puntos
+Última modificación	-
+
